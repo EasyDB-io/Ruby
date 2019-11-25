@@ -1,0 +1,27 @@
+PATH
+  remote: .
+  specs:
+    easydb_io (0.1.0)
+      faraday (~> 0.17.0)
+      faraday_middleware (~> 0.13.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (0.17.0)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.13.1)
+      faraday (>= 0.7.4, < 1.0)
+    multipart-post (2.1.1)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 2.0)
+  easydb_io!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   2.0.2
